@@ -8,7 +8,7 @@ public class Euler17 {
 		String[] refones = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
 		int[] ones = {4, 3, 3, 5, 4, 4, 3, 5, 5, 4, 3};
 		String[] refteens = {"eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
-		int[] teens = {6, 6, 8, 8, 7, 7, 9, 9, 8};
+		int[] teens = {6, 6, 8, 8, 7, 7, 9, 8, 8};
 		String[] reftens = {"nah", "special", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
 		int[] tens = {2000, 2000, 6, 6, 5, 5, 5, 7, 6, 6};
 		int and = 3;
@@ -17,7 +17,7 @@ public class Euler17 {
 		int sum = 0;
 		//1-10
 		for(int a = 1; a < 11; a++) {
-			System.out.println(refones);
+			System.out.println(refones[a]);
 			sum += ones[a];
 		}
 		
